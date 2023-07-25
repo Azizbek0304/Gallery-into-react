@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
+import FollowUS from '../components/FollowUs';
 import GallerySection from '../components/GallerySection';
 import SwiperSection1 from '../components/ExhibitionSlider';
 import SwiperSection2 from '../components/ExhibitionSwiper';
@@ -43,7 +43,7 @@ export default function Conntent() {
 
             <ImageTextSection2 />
 
-            <Footer />
+            <FollowUS />
           </div>
         </div>
       </div>
