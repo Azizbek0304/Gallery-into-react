@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageTextCardSection = () => {
+const ImageTextCardSection1 = () => {
   return (
     <section className="image-text-card-section">
       <div className="header-and-text with-button">
@@ -20,4 +20,4 @@ const ImageTextCardSection = () => {
   );
 };
 
-export default ImageTextCardSection;
+export default ImageTextCardSection1;

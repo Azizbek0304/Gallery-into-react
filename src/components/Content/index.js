@@ -1,12 +1,13 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 import GallerySection from '../components/GallerySection';
 import SwiperSection1 from '../components/ExhibitionSlider';
 import SwiperSection2 from '../components/ExhibitionSwiper';
 import SwiperPricingSection from '../components/SwiperPricingSection';
 import PricingDisclaimerSection from '../components/PricingDisclaimerSection';
-import ImageTextSection1 from '../components/ImageTextSection';
-import ImageTextSection2 from '../components/ImageTextSection';
+import ImageTextSection1 from '../components/ImageTextSection1';
+import ImageTextSection2 from '../components/ImageTextSection2';
 import MiddleSwiperSection from '../components/MiddleSwiperSection';
 import SectionWithSubheaders from '../components/SectionWithSubheaders';
 import ImageTextCardSection from '../components/ImageTextCardSection';
@@ -41,6 +42,8 @@ export default function Conntent() {
             <SwiperSection2 />
 
             <ImageTextSection2 />
+
+            <Footer />
           </div>
         </div>
       </div>
