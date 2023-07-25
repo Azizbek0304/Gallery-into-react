@@ -1,6 +1,8 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
+import SwiperSection from '../components/ExhibitionSlider';
 import SectionWithSubheaders from '../components/SectionWithSubheaders';
+import MadeWithKunstmatrix from '../components/MadeWithKunstmatrix  ';
 
 export default function Conntent() {
   return (
@@ -10,6 +12,8 @@ export default function Conntent() {
           <div class="content clearfix">
             <HeroSection />
             <SectionWithSubheaders />
+            <MadeWithKunstmatrix />
+            <SwiperSection />
           </div>
         </div>
       </div>
