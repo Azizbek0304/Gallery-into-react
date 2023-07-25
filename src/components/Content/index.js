@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import SwiperSection from '../components/ExhibitionSlider';
+import SwiperPricingSection from '../components/SwiperPricingSection';
 import ImageTextSection from '../components/ImageTextSection';
 import SectionWithSubheaders from '../components/SectionWithSubheaders';
 import MadeWithKunstmatrix from '../components/MadeWithKunstmatrix  ';
@@ -20,7 +21,8 @@ export default function Conntent() {
             <SwiperSection />
 
             <ImageTextSection />
-            
+
+            <SwiperPricingSection />
           </div>
         </div>
       </div>
