@@ -1,7 +1,8 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import GallerySection from '../components/GallerySection';
-import SwiperSection from '../components/ExhibitionSlider';
+import SwiperSection1 from '../components/ExhibitionSlider';
+import SwiperSection2 from '../components/ExhibitionSwiper';
 import SwiperPricingSection from '../components/SwiperPricingSection';
 import PricingDisclaimerSection from '../components/PricingDisclaimerSection';
 import ImageTextSection from '../components/ImageTextSection';
@@ -22,7 +23,7 @@ export default function Conntent() {
 
             <MadeWithKunstmatrix />
 
-            <SwiperSection />
+            <SwiperSection1 />
 
             <ImageTextSection />
 
@@ -36,7 +37,7 @@ export default function Conntent() {
 
             <GallerySection />
 
-            <SwiperSection />
+            <SwiperSection2 />
           </div>
         </div>
       </div>
