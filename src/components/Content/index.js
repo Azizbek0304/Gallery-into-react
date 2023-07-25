@@ -5,7 +5,8 @@ import SwiperSection1 from '../components/ExhibitionSlider';
 import SwiperSection2 from '../components/ExhibitionSwiper';
 import SwiperPricingSection from '../components/SwiperPricingSection';
 import PricingDisclaimerSection from '../components/PricingDisclaimerSection';
-import ImageTextSection from '../components/ImageTextSection';
+import ImageTextSection1 from '../components/ImageTextSection';
+import ImageTextSection2 from '../components/ImageTextSection';
 import MiddleSwiperSection from '../components/MiddleSwiperSection';
 import SectionWithSubheaders from '../components/SectionWithSubheaders';
 import ImageTextCardSection from '../components/ImageTextCardSection';
@@ -25,7 +26,7 @@ export default function Conntent() {
 
             <SwiperSection1 />
 
-            <ImageTextSection />
+            <ImageTextSection1 />
 
             <SwiperPricingSection />
 
@@ -38,6 +39,8 @@ export default function Conntent() {
             <GallerySection />
 
             <SwiperSection2 />
+
+            <ImageTextSection2 />
           </div>
         </div>
       </div>
