@@ -4,7 +4,9 @@ import SwiperSection from '../components/ExhibitionSlider';
 import SwiperPricingSection from '../components/SwiperPricingSection';
 import PricingDisclaimerSection from '../components/PricingDisclaimerSection';
 import ImageTextSection from '../components/ImageTextSection';
+import MiddleSwiperSection from '../components/MiddleSwiperSection';
 import SectionWithSubheaders from '../components/SectionWithSubheaders';
+import ImageTextCardSection from '../components/ImageTextCardSection';
 import MadeWithKunstmatrix from '../components/MadeWithKunstmatrix  ';
 
 export default function Conntent() {
@@ -26,6 +28,10 @@ export default function Conntent() {
             <SwiperPricingSection />
 
             <PricingDisclaimerSection />
+
+            <ImageTextCardSection />
+
+            <MiddleSwiperSection />
           </div>
         </div>
       </div>
