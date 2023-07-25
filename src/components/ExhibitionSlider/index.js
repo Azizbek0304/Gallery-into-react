@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SwiperSection = () => {
+const SwiperSection1 = () => {
   const exhibitionsData = [
     {
       id: 1,
@@ -101,4 +101,4 @@ const SwiperSection = () => {
   );
 };
 
-export default SwiperSection;
+export default SwiperSection1;
