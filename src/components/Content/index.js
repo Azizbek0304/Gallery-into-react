@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import SwiperSection from '../components/ExhibitionSlider';
+import ImageTextSection from '../components/ImageTextSection';
 import SectionWithSubheaders from '../components/SectionWithSubheaders';
 import MadeWithKunstmatrix from '../components/MadeWithKunstmatrix  ';
 
@@ -11,9 +12,15 @@ export default function Conntent() {
         <div id="main" class="grid_12">
           <div class="content clearfix">
             <HeroSection />
+
             <SectionWithSubheaders />
+
             <MadeWithKunstmatrix />
+
             <SwiperSection />
+
+            <ImageTextSection />
+            
           </div>
         </div>
       </div>
