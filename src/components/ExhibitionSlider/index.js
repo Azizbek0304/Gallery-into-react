@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SwiperSection1 = () => {
-  const exhibitionsData = [
+  const exhibitions = [
     {
       id: 1,
       imageSrc:
