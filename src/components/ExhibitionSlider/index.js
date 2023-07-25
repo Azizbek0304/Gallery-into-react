@@ -1,17 +1,62 @@
 import React from 'react';
 
 const SwiperSection = () => {
-  const exhibitions = [
+  const exhibitionsData = [
     {
       id: 1,
-      title: 'Apollo Art Gallery',
       imageSrc:
         'https://artspaces.kunstmatrix.com/sites/artspaces.kunstmatrix.com/files/styles/cropped_medium/public/exhibitions/60711/edm-01.jpg?itok=yNSe3L_v',
-      altText: '2023 台中藝術博覽會 | 阿波羅畫廊 1011房 | 2023.07.14-16',
-      date: '14 Jul 2023 – 16 Jul 2023',
+      title: 'Apollo Art Gallery',
+      subtitle: '2023',
+      duration: '14 Jul 2023 – 16 Jul 2023',
       description: '2023 Gallery',
     },
-    // Add other exhibition objects here...
+    {
+      id: 2,
+      imageSrc:
+        'https://artspaces.kunstmatrix.com/sites/artspaces.kunstmatrix.com/files/styles/cropped_medium/public/exhibitions/33840/apple_6.png?itok=6FluLQCl',
+      title: 'E / VP D STUDIO',
+      subtitle: 'LANDSCAPE',
+      duration: '',
+      description: '',
+    },
+    {
+      id: 3,
+      imageSrc:
+        'https://artspaces.kunstmatrix.com/sites/artspaces.kunstmatrix.com/files/styles/cropped_medium/public/exhibitions/41863/image_accueil.png?itok=ivMXR_fJ',
+      title: 'Alfredus',
+      subtitle: '2023',
+      duration: '',
+      description: '',
+    },
+    {
+      id: 4,
+      imageSrc:
+        'https://artspaces.kunstmatrix.com/sites/artspaces.kunstmatrix.com/files/styles/cropped_medium/public/exhibitions/64906/dovous_1.png?itok=KW_ayc6U',
+      title: 'Parus Albert Schaeffer',
+      subtitle: 'Dovous - The rest is silence',
+      duration: '',
+      description: 'Gallaery',
+    },
+    {
+      id: 5,
+      imageSrc:
+        'https://artspaces.kunstmatrix.com/sites/artspaces.kunstmatrix.com/files/styles/cropped_medium/public/exhibitions/72574/linnea_moody_thumbnail.png?itok=lu4Q12ef',
+      title: 'Women Gallaery',
+      subtitle: '3D Gallaery',
+      duration: '11 Jul 2023 – 24 Jul 2023',
+      description: 'Gallaery',
+    },
+    {
+      id: 6,
+      imageSrc:
+        'https://artspaces.kunstmatrix.com/sites/artspaces.kunstmatrix.com/files/styles/cropped_medium/public/exhibitions/94837/dscf0049_dxo.jpg?itok=8iYJ4HeG',
+      title: 'Andrei Prodan',
+      subtitle: 'Discover the Danube Delta, Romania',
+      duration: '',
+      description:
+        "This is an exhibition and an invitation to discover the Europe's Paradise, the Danube Delta, from Romania.",
+    },
   ];
 
   return (
