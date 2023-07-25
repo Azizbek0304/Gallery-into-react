@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
+import GallerySection from '../components/GallerySection';
 import SwiperSection from '../components/ExhibitionSlider';
 import SwiperPricingSection from '../components/SwiperPricingSection';
 import PricingDisclaimerSection from '../components/PricingDisclaimerSection';
@@ -32,6 +33,10 @@ export default function Conntent() {
             {/* <ImageTextCardSection /> */}
 
             {/* <MiddleSwiperSection /> */}
+
+            <GallerySection />
+
+            <SwiperSection />
           </div>
         </div>
       </div>
