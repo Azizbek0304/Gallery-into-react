@@ -29,9 +29,9 @@ export default function Conntent() {
 
             <PricingDisclaimerSection />
 
-            <ImageTextCardSection />
+            {/* <ImageTextCardSection /> */}
 
-            <MiddleSwiperSection />
+            {/* <MiddleSwiperSection /> */}
           </div>
         </div>
       </div>
