@@ -13,7 +13,7 @@ import SectionWithSubheaders from '../components/SectionWithSubheaders';
 import ImageTextCardSection from '../components/ImageTextCardSection';
 import MadeWithKunstmatrix from '../components/MadeWithKunstmatrix  ';
 
-export default function Conntent() {
+export default function Content() {
   return (
     <div id="content">
       <div id="content-inside" class="container_12 clearfix">
