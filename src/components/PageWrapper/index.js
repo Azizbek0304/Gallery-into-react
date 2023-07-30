@@ -8,7 +8,7 @@ export default function PageWrapper() {
     <div id="page-wrapper">
       <BurgerMenu />
       <SkipLink />
-      <Content />
+      {/* <Content /> */}
     </div>
   );
 }
