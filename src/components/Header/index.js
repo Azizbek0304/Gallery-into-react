@@ -1,8 +1,29 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Header = () => {
   return (
     <header id="appchoice" className="clearfix">
+      <Helmet>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+          Shadowbox.path = "/sites/all/libraries/shadowbox/";
+        `,
+          }}
+        />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+          jQuery.extend(Drupal.settings, {
+            // ... Your Drupal settings here ...
+          });
+        `,
+          }}
+        />
+      </Helmet>
       <div id="appchoice-wrapper" className="container-12 clearfix">
         {/* Logo */}
         <ul className="menu appchoice-loggedin">
