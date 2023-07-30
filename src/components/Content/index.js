@@ -1,17 +1,17 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection';
-import FollowUS from '../components/FollowUs';
-import GallerySection from '../components/GallerySection';
-import SwiperSection1 from '../components/ExhibitionSlider';
-import SwiperSection2 from '../components/ExhibitionSwiper';
-import SwiperPricingSection from '../components/SwiperPricingSection';
-import PricingDisclaimerSection from '../components/PricingDisclaimerSection';
-import ImageTextSection1 from '../components/ImageTextSection1';
-import ImageTextSection2 from '../components/ImageTextSection2';
+import HeroSection from '../HeroSection';
+import FollowUS from '../FollowUs';
+import GallerySection from '../GallerySection';
+import SwiperSection1 from '../ExhibitionSlider';
+import SwiperSection2 from '../ExhibitionSwiper';
+import SwiperPricingSection from '../SwiperPricingSection';
+import PricingDisclaimerSection from '../PricingDisclaimerSection';
+import ImageTextSection1 from '../ImageTextSection1';
+import ImageTextSection2 from '../ImageTextSection2';
 import MiddleSwiperSection from '../components/MiddleSwiperSection';
-import SectionWithSubheaders from '../components/SectionWithSubheaders';
+import SectionWithSubheaders from '../SectionWithSubheaders';
 import ImageTextCardSection from '../components/ImageTextCardSection';
-import MadeWithKunstmatrix from '../components/MadeWithKunstmatrix  ';
+import MadeWithKunstmatrix from '../MadeWithKunstmatrix  ';
 
 export default function Content() {
   return (
